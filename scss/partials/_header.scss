@@ -6,6 +6,6 @@
     @include background;
     display: grid;
     grid-template-columns: 30% 70%;
-    overflow-x: hidden;
+    overflow: hidden;
     // grid-template-rows: 1fr;
 }
