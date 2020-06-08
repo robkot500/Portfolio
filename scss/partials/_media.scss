@@ -1,4 +1,13 @@
 @media screen and (max-width: 700px) {
+  .nav{
+    .ham{
+      right: 20px;
+      top: 25px;
+    }
+    a{
+      font-size: 5vw;
+    }
+  }
   .header-container{
     
     grid-template-columns: 100%;
@@ -9,7 +18,20 @@
     }
     .header-left{
       order:2;
-     
+      h2{
+        font-size: 5vw;
+    }
+    p{
+        font-size: 3.5vw;
+        padding: 2vw;
+    }
+    .btn{
+        width: 30vw;
+        height: 7vw;
+       
+        font-size: 3vw;
+      
+    }
     }
     .me{
       width: 52vw;
