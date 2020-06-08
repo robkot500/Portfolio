@@ -1,0 +1,72 @@
+.nav{
+    height: 80px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    @include hamburger;
+    .desktop-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    ul{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 100%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        margin: 1vw;
+        padding-bottom: 0.3vw;
+        cursor: pointer;
+    }
+    li{
+        height: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   
+      
+    li a:hover{
+        color: black;
+        border-bottom: 5px solid red;
+    }
+    .click{
+        display: flex;
+        justify-content: center;
+        .ham1 {
+          -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+          transform: rotate(-45deg) translate(-5px, 4px);
+        }
+        .ham2 {
+          opacity: 0;
+        }
+      
+        .ham3 {
+          -webkit-transform: rotate(45deg) translate(-8px, -8px);
+          transform: rotate(45deg) translate(-7px, -6px);
+        }
+        li{
+          display: flex;
+        }
+       
+    } 
+    
+}
+.nav-background{
+    background-color: gray;
+    .ham1, .ham2, .ham3 {
+      background-color: white;
+    }
+}

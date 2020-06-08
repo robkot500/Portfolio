@@ -1,0 +1,33 @@
+@import 'partials/reset';
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/intro';
+@import 'partials/circle';
+@import 'partials/header';
+@import 'partials/nav';
+@import 'partials/about';
+@import 'partials/portfolio';
+@import 'partials/contact';
+@import 'partials/media';
+
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+.container{
+    width: 100%;
+    position: relative;
+    &:after{
+      content: "";
+      background-image: url(/../assets/background.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat:no-repeat;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 80px;
+      opacity:0.1;
+      z-index: -1;
+  
+  }
+}

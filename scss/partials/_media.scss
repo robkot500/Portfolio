@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px) {
+  .header-container{
+    
+    grid-template-columns: 100%;
+
+    .header-right{
+      order:1;
+      
+    }
+    .header-left{
+      order:2;
+     
+    }
+    .me{
+      width: 52vw;
+      height: 52vw;
+      top: 26vw;
+      left: 29vw;
+     
+    }
+    .sun{
+      width: 73vw;
+  height: 73vw;
+      top: 5vh;
+      left: 15vw;
+    }
+    .fab{
+      font-size: 7vw;
+    
+    }
+    
+}
+}
+  @media screen and (min-width: 701px) and (max-width: 1200px) {
+    
+    }
+  @media screen and (min-width: 1201px) and (max-width: 1400px) {
+    
+    }
+  @media screen and (min-width: 1301px) and (max-width: 1500px) {
+     
+  }
+  @media screen and (min-width: 1401px) {
+    
+  }
+  

@@ -1,0 +1,49 @@
+@mixin orbit($name, $start, $end) {
+    @keyframes #{$name} {
+      from {transform: rotate($start)}
+      to {transform: rotate($end)}
+    }
+    animation-name: #{$name} ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+  }
+
+  @mixin hamburger {
+    .ham-wrapper {
+      display: block;
+      cursor: pointer;
+      margin-right: 30px;
+    }
+    .ham{
+      position: absolute;
+      right: 20px;
+      top: 33px;
+    }
+    .ham1, .ham2, .ham3 {
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+  
+    
+  }
+  @mixin background {
+    &:after{
+      content: "";
+      background-image: url(/../assets/background.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat:no-repeat;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      // background-color: black;
+      opacity:0.1;
+      z-index: -1;
+  }
+  }
