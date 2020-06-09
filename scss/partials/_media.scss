@@ -26,10 +26,10 @@
         padding: 2vw;
     }
     .btn{
-        width: 30vw;
-        height: 7vw;
-       
-        font-size: 3vw;
+      margin-top: 2vw;
+      width: 33vw;
+      height: 8vw;
+      font-size: 4vw;
       
     }
     }
@@ -66,6 +66,10 @@
   .portfolio-left{
     padding: 5vw;
 }
+.portfolio-right{
+ 
+  padding-right: 0;
+}
 
 img{
     width: 71.5vw;
@@ -88,17 +92,15 @@ img{
     margin-bottom: 4vw;;
 }
 .btn-1{
-    @include button($additional-color,$second-font-color);
-    border: 2px solid $additional-color;
-    width: 20vw;
-    height: 5vw;
-    font-size: 3vw;
+  width: 33vw;
+  height: 8vw;
+  font-size: 4vw;
+  margin-right: 7vw;
 }
 .btn-2{
-    @include button($second-font-color,$additional-color);
-    width: 20vw;
-    height: 5vw;
-    font-size: 3vw;
+  width: 33vw;
+  height: 8vw;
+  font-size: 4vw;
 }
 }
 }
