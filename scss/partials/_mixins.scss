@@ -47,3 +47,27 @@
       z-index: -1;
   }
   }
+  @mixin button($color,$background) {
+    width: 12vw;
+    height: 3vw;
+    background-color: $background;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    color: $color;
+   cursor: pointer;
+  }
+  .btn{
+    width: 12vw;
+    height: 3vw;
+    background-color: $additional-color;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+   color: white;
+   cursor: pointer;
+}

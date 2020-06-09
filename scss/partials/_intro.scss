@@ -21,15 +21,6 @@
         padding: 1vw;
     }
     .btn{
-        width: 12vw;
-        height: 3vw;
-        background-color: $additional-color;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.4vw;
-       color: white;
-       cursor: pointer;
+        @include button($second-font-color,$additional-color)
     }
 }

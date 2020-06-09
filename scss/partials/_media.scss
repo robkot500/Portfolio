@@ -42,7 +42,7 @@
     }
     .sun{
       width: 73vw;
-  height: 73vw;
+      height: 73vw;
       top: 5vh;
       left: 15vw;
     }
@@ -51,6 +51,55 @@
     
     }
     
+}
+.portfolio-container{
+  .portfolio-item{
+    grid-template-columns: 100%;
+  }
+  .two-left{
+    order: 1;
+  }
+  .two-right{
+    order: 2;
+  }
+  
+  .portfolio-left{
+    padding: 5vw;
+}
+
+img{
+    width: 71.5vw;
+    height: 65vw;
+   
+}
+.portfolio-title{
+    font-size: 6vw;
+    margin: 6vw;
+}
+.portfolio-technologies{
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    
+}
+.portfolio-text{
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 0 5vw;
+    margin-bottom: 4vw;;
+}
+.btn-1{
+    @include button($additional-color,$second-font-color);
+    border: 2px solid $additional-color;
+    width: 20vw;
+    height: 5vw;
+    font-size: 3vw;
+}
+.btn-2{
+    @include button($second-font-color,$additional-color);
+    width: 20vw;
+    height: 5vw;
+    font-size: 3vw;
+}
 }
 }
   @media screen and (min-width: 701px) and (max-width: 1200px) {
