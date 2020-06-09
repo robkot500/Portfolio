@@ -17,14 +17,14 @@ function Portfolio() {
 
 
                 </div>
-                <div className="portfolio-right"><a href="https://robkot500.github.io/Weather/build/" target="_blank"><img src="/../assets/weather.png" alt="Prognoza pogody" /></a></div>
+                <div className="portfolio-right"><a href="https://robkot500.github.io/Weather/build/" target="_blank"><img src="./../assets/weather.png" alt="Prognoza pogody" /></a></div>
             </div>
 
             <div className="portfolio-item">
                 <div className="portfolio-left">
                     <p className='portfolio-title'>Mediator sądowy</p>
                 </div>
-                <div className="portfolio-right"><a href="https://robkot500.github.io/Mediacje/build" target="_blank"><img src="/../assets/mediator.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
+                <div className="portfolio-right"><a href="https://robkot500.github.io/Mediacje/build" target="_blank"><img src="./../assets/mediator.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
             </div>
         </Element >
     )
