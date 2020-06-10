@@ -4,5 +4,52 @@
     height: 100vh;
     position: relative;
     @include background;
-    // display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .a-wrapper{
+        margin-bottom: 10vw;
+    }
+   .contact-me{
+       font-size: 5vw;
+       margin-bottom: 3vw;
+   }
+   .phone{
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+   }
+   .email{
+       font-size: 2vw;
+        display: none;
+        position: absolute;
+        left: 0vw;
+        bottom: 7.5vw;
+   }
+   .email-wrapper:hover .email{
+        display: block;
+   }
+   .email-wrapper{
+       display: inline;
+       position: relative;
+   }
+   .contact-info{
+    font-size: 2vw;
+    line-height: 2.6vw;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10vw;
+    border-bottom:1px solid $first-font-color;
+}
+.a-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas,
+.fab{
+    font-size: 5vw;
+    margin:2vw;
+    color: $first-font-color;
+}
 }
