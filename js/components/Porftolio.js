@@ -14,12 +14,9 @@ function Portfolio() {
                         <a href="https://robkot500.github.io/Weather/build/" target="_blank"><div class='btn-1'>Visit site</div></a>
                         <a href="https://github.com/robkot500/Weather" target="_blank"><div class='btn-2'>View code</div></a>
                     </div>
-
-
                 </div>
                 <div className="portfolio-right"><a href="https://robkot500.github.io/Weather/build/" target="_blank"><img src="./../assets/weather.png" alt="Prognoza pogody" /></a></div>
             </div>
-
             <div className="portfolio-item">
                 <div className="portfolio-left">
                     <p className='portfolio-title'>Mediator sądowy</p>

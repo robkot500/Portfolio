@@ -4,7 +4,7 @@ function Intro() {
     return (
         <div className=" header-left">
             <div className=" intro-wrapper">
-                <h2>Hi, I am Robert Kotwicki,</h2>
+                <h2>Robert Kotwicki,</h2>
                 <p>a junior front end developer</p>
                 <div className="btn">
                     <Link smooth={true} to="portfolio">View my work</Link>

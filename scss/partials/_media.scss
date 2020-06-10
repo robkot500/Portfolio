@@ -9,7 +9,7 @@
     }
   }
   .header-container{
-    
+    height: 140vw;
     grid-template-columns: 100%;
 
     .header-right{
@@ -46,35 +46,97 @@
       top: 5vh;
       left: 15vw;
     }
-    .fab{
-      font-size: 7vw;
-    
-    }
-    
+}
+.about-container{
+  
+ .about-up{
+  height: 100%;
+  padding-top: 0;
+  justify-content: flex-start;
+}
+.about-welcome{
+  font-size: 8vw;
+  margin-bottom: 3vw;
+}
+.about-wrapper{
+  grid-template-columns: 100%;
+  justify-items: center;
+ 
+}
+.about-frame{
+  width: 50%;
+}
+.about-text{
+  font-size: 4vw;
+  line-height: 4.2vw;
+  padding-left: 5vw;
+}
+.about-down{
+  height: 200%;
+}
+.about-middle{
+  position: absolute;
+  top: -20%;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+  display: grid;
+}
+.about-column{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f2f2f2;
+}
+.about-column:first-child{
+  border-top-left-radius: 20px;
+}
+.about-column:last-child{
+  border-top-right-radius: 20px;
+}
+.about-icon{
+  // background-image: url(/../assets/education.png);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // width: 15vw;
+  // height: 15vw;
+  // color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  margin: 2.5vw;
+  width: 15vw;
+  height: 15vw;
+}
+.about-title{
+  text-align: center;
+  font-size: 2.5vw;
+}
 }
 .portfolio-container{
   .portfolio-item{
     grid-template-columns: 100%;
   }
-  .two-left{
-    order: 1;
-  }
-  .two-right{
-    order: 2;
-  }
-  
-  .portfolio-left{
-    padding: 5vw;
+.portfolio-left{
+  padding: 5vw;
+  order: 2;
 }
 .portfolio-right{
- 
   padding-right: 0;
+  order: 1;
+  justify-content: center;
+  align-items: flex-end;
+  
 }
 
 img{
     width: 71.5vw;
     height: 65vw;
-   
+    margin: 10vw 0 0 0;
 }
 .portfolio-title{
     font-size: 6vw;
