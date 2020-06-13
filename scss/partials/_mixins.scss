@@ -33,7 +33,7 @@
   @mixin background {
     &:after{
       content: "";
-      background-image: url(./../assets/background.jpg);
+      background-image: url(/../assets/background.jpg);
       background-position: center;
       background-size: cover;
       background-repeat:no-repeat;

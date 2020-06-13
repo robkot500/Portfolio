@@ -10,7 +10,8 @@ function About() {
                     <div className='about-frame'>
                         <div className='about-picture'></div>
                     </div>
-                    <div className="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat cumque corrupti et accusamus id mollitia voluptatem nemo, non reiciendis quasi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio exercitationem id voluptatem eos. Magni, aspernatur dignissimos totam sit reprehenderit alias voluptatem illum tempora maiores, libero deserunt autem repellendus rem.</div>
+                    <div className="about-text">I`m a hard working and dedicated junior front-end developer. I have completed Coders Lab course, JS Developer: React, but I`m still learning. Right now I want to focus on React and Redux. I enjoy making usuful websites using HTML, CSS,  JavaScript and React JS.
+                        If you have any questions, do not hesitate to contact me.</div>
                 </div>
                 <div className='about-middle'>
                     <div className='about-column'>

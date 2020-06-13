@@ -25,6 +25,7 @@
     }
     .about-wrapper{
        display: grid;
+       padding: 10%;
        grid-template-columns: 20% 80%;
     }
     .about-frame{
@@ -44,7 +45,7 @@
         background-color: white;
     }
     .about-picture{
-        background-image:url(./../assets/robert.jpg);
+        background-image:url(/../assets/robert.jpg);
         // width: 15vw;
         // height: 15vw;
         width: 100%;

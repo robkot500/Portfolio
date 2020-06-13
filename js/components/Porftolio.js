@@ -9,9 +9,9 @@ function Portfolio() {
                     <p className='portfolio-title'>Mediator sądowy</p>
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
                     <p className='portfolio-text'>This is web page for the lokal court mediator.</p>
-                    <div class="btn-container">
-                        <a href="https://robkot500.github.io/Mediacje/build" target="_blank"><div class='btn-1'>Visit site</div></a>
-                        <a href="https://github.com/robkot500/Mediacje" target="_blank"><div class='btn-2'>View code</div></a>
+                    <div className="btn-container">
+                        <a href="https://robkot500.github.io/Mediacje/build" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://github.com/robkot500/Mediacje" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
                 <div className="portfolio-right"><a href="https://robkot500.github.io/Mediacje/build" target="_blank"><img src="./../assets/3333.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
@@ -21,9 +21,9 @@ function Portfolio() {
                     <p className='portfolio-title'>Weather forecast</p>
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT, REST API, JSON</p>
                     <p className='portfolio-text'>A web application that allows user to view the weather forecast for 6 days using the Fetch API. Available for for any location by using geolocation or city name.</p>
-                    <div class="btn-container">
-                        <a href="https://robkot500.github.io/Weather/build/" target="_blank"><div class='btn-1'>Visit site</div></a>
-                        <a href="https://github.com/robkot500/Weather" target="_blank"><div class='btn-2'>View code</div></a>
+                    <div className="btn-container">
+                        <a href="https://robkot500.github.io/Weather/build/" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://github.com/robkot500/Weather" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
                 <div className="portfolio-right"><a href="https://robkot500.github.io/Weather/build/" target="_blank"><img src="./../assets/weather.png" alt="Prognoza pogody" /></a></div>
@@ -33,9 +33,9 @@ function Portfolio() {
                     <p className='portfolio-title'>Mediator sądowy</p>
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
                     <p className='portfolio-text'>This is web page for the lokal court mediator.</p>
-                    <div class="btn-container">
-                        <a href="https://robkot500.github.io/Mediacje/build" target="_blank"><div class='btn-1'>Visit site</div></a>
-                        <a href="https://github.com/robkot500/Mediacje" target="_blank"><div class='btn-2'>View code</div></a>
+                    <div className="btn-container">
+                        <a href="https://robkot500.github.io/Mediacje/build" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://github.com/robkot500/Mediacje" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
                 <div className="portfolio-right"><a href="https://robkot500.github.io/Mediacje/build" target="_blank"><img src="./../assets/mediator.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
