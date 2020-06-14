@@ -1,5 +1,7 @@
 import React from 'react'
 import { Element } from "react-scroll";
+import Popup from "reactjs-popup";
+import Modal from './Modal'
 
 function About() {
     return (
@@ -17,7 +19,9 @@ function About() {
                     <div className='about-column'>
                         <div className='about-icon'><img src="./../assets/education.png" alt="education" /></div>
                         <p className='about-title'>Education</p>
-                        <p className='about-column-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia molestiae praesentium consectetur velit quia exercitationem atque fugiat perspiciatis. Eum amet iure animi corrupti et laborum officiis recusandae architecto distinctio? Doloremque?</p>
+
+                        <p className='about-column-text'>I have completed Coders Lab course, JS Developer: React, but I`m still learning. Right now I want to focus on React and Redux. <Modal /> is the specification about course program.</p>
+
                     </div>
                     <div className='about-column'>
                         <div className='about-icon'><img src="./../assets/technologies.png" alt="technologies" /></div>

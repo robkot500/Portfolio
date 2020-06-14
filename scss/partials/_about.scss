@@ -60,7 +60,7 @@
     }
     .about-text{
         font-size: 2vw;
-        line-height: 2.2vw;
+        line-height: 2.5vw;
         padding-left: 5vw;
         display: flex;
         justify-content: center;
@@ -91,8 +91,34 @@
     .about-column-text{
         margin: 3vw;
         font-size: 1.5vw;
+        line-height: 2vw;
         text-align: justify;
     }
+   .pointer{
+       cursor: pointer;
+       text-decoration: underline;
+   }
+   .course-spec{
+    background-image: url(./../assets/rk4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 70.71%;
+   }
+  
+//    Needed to overwrite inlinie style of Popup from "reactjs-popup"
+   .popup-content{
+       width: 75% !important;
+   }
+   .course-spec::-webkit-scrollbar-track-piece:start{
+    margin-top: 100px;
+   }
+   .pointer:hover{
+       color: black;
+       font-weight:700 ;
+       font-size: 1.7vw;
+   }
     .about-column:first-child{
         border-top-left-radius: 20px;
     }
