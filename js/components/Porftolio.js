@@ -6,15 +6,15 @@ function Portfolio() {
         <Element name='portfolio' className='portfolio-container'>
             <div className="portfolio-item">
                 <div className="portfolio-left">
-                    <p className='portfolio-title'>Mediator sądowy</p>
+                    <p className='portfolio-title'>Portfolio</p>
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
-                    <p className='portfolio-text'>This is web page for the lokal court mediator.</p>
+                    <p className='portfolio-text'>My portfolio website - still under constraction</p>
                     <div className="btn-container">
-                        <a href="https://robkot500.github.io/Mediacje/build" target="_blank"><div className='btn-1'>Visit site</div></a>
-                        <a href="https://github.com/robkot500/Mediacje" target="_blank"><div className='btn-2'>View code</div></a>
+                        <a href="https://robkot500.github.io/Portfolio/build/" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://github.com/robkot500/Portfolio" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
-                <div className="portfolio-right"><a href="https://robkot500.github.io/Mediacje/build" target="_blank"><img src="./../assets/3333.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
+                <div className="portfolio-right"><a href="https://robkot500.github.io/Portfolio/build/" target="_blank"><img src="./../assets/3333.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
             </div>
             <div className="portfolio-item">
                 <div className="portfolio-left">

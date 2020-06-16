@@ -12,20 +12,20 @@
         color:$first-font-color;
       
         width: 100%;
-        height: 60vw;
+        height: 50vw;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
         position: relative;
     }
     .about-welcome{
         font-size: 3.1vw;
-        margin-bottom: 1vw;
+        margin: 5vw;
     }
     .about-wrapper{
        display: grid;
-       padding: 10%;
+       padding: 0 10% 7%  10%;
        grid-template-columns: 20% 80%;
     }
     .about-frame{
@@ -45,7 +45,7 @@
         background-color: white;
     }
     .about-picture{
-        background-image:url(./../assets/robert.jpg);
+        background-image:url(/../assets/robert.jpg);
         // width: 15vw;
         // height: 15vw;
         width: 100%;
