@@ -10,7 +10,7 @@ function Contact() {
             <div className=' a-wrapper'>
                 <a href="tel=+48506163190"><i className="fas fa-phone-square-alt"></i></a>
                 <div className="email-wrapper"><a href="mailto: robert.kotwicki5@gmail.com"><i className="fas fa-envelope-open-text"></i></a><div className="email">robert.kotwicki5@gmail.com</div></div>
-                <a href="www.linkedin.com/in/robert-kotwicki-8431a31a7"><i className="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/robert-kotwicki-8431a31a7/"><i className="fab fa-linkedin"></i></a>
                 <a href="https://github.com/robkot500"><i className="fab fa-github-square"></i></a>
                 <a href="https://api.whatsapp.com/send?phone=+48506163190" target='blank'><i className="fab fa-whatsapp-square"></i></a>
             </div>

@@ -71,8 +71,11 @@
         background-color: white;
         width: 100%;
         height: 40vw;
-       
     }
+    .about-down2{
+        height: 70vw;
+    }
+   
     .about-middle{
         position: absolute;
         bottom: -70%;
@@ -85,7 +88,7 @@
     }
     .about-column{
         width: 33.3%;
-        height: 100%;
+        height: 150%;
         border: 1px solid #f2f2f2;
     }
     .about-column-text{
@@ -93,6 +96,31 @@
         font-size: 1.5vw;
         line-height: 2vw;
         text-align: justify;
+    }
+    .about-skill-wrapper,
+    .about-skill-wrapper2{
+        padding: 0 20%;
+        display: flex;
+        align-items: center;
+    }
+    .about-skill-wrapper2{
+        display: none;
+    }
+    .about-no-visible{
+        display: flex;
+    }
+    
+    @include arrow;
+    .fab{
+        font-size: 3vw;
+        margin-left: 3vw;
+        
+    }
+    .about-skill{
+        font-size: 1.5vw;
+        padding: 1vw 0;
+        height: 3vw;
+        margin: 0.5vw 1.7vw;
     }
    .pointer{
        cursor: pointer;
@@ -146,4 +174,5 @@
         text-align: center;
         font-size: 2.5vw;
       }
+
 }
