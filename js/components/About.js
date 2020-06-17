@@ -40,17 +40,17 @@ function About() {
                         <div className='about-icon'><img src="./../assets/technologies.png" alt="technologies" /></div>
                         <p className='about-title'>Skills</p>
 
-                        <div className='about-skill-wrapper'><i class="fab fa-html5"></i><div className='about-skill'>HTML 5</div></div>
-                        <div className='about-skill-wrapper'><i class="fab fa-css3-alt"></i><div className='about-skill'>CSS 3</div></div>
-                        <div className='about-skill-wrapper'><i class="fab fa-js-square"></i><div className='about-skill'>JavaScript</div></div>
-                        <div className='about-skill-wrapper'><i class="fab fa-react"></i><div className='about-skill'>React JS</div></div>
-                        <div className='about-skill-wrapper'><i class="fab fa-sass"></i><div className='about-skill'>Sass</div></div>
-                        <div className='about-skill-wrapper2'><i class="fab fa-git-alt"></i><div className='about-skill'>Git</div></div>
-                        <div className='about-skill-wrapper2'><i class="fab fa-github-square"></i><div className='about-skill'>Github</div></div>
-                        <div className='about-skill-wrapper2'><i class="fab fa-npm"></i><div className='about-skill'>npm</div></div>
+                        <div className='about-skill-wrapper'><i className="fab fa-html5"></i><div className='about-skill'>HTML 5</div></div>
+                        <div className='about-skill-wrapper'><i className="fab fa-css3-alt"></i><div className='about-skill'>CSS 3</div></div>
+                        <div className='about-skill-wrapper'><i className="fab fa-js-square"></i><div className='about-skill'>JavaScript</div></div>
+                        <div className='about-skill-wrapper'><i className="fab fa-react"></i><div className='about-skill'>React JS</div></div>
+                        <div className='about-skill-wrapper'><i className="fab fa-sass"></i><div className='about-skill'>Sass</div></div>
+                        <div className='about-skill-wrapper2'><i className="fab fa-git-alt"></i><div className='about-skill'>Git</div></div>
+                        <div className='about-skill-wrapper2'><i className="fab fa-github-square"></i><div className='about-skill'>Github</div></div>
+                        <div className='about-skill-wrapper2'><i className="fab fa-npm"></i><div className='about-skill'>npm</div></div>
                         <div className='about-skill-wrapper2'><img src="./../assets/redux.png" alt="redux" /><div className='about-skill'>Redux</div></div>
                         <div className='about-skill-wrapper2'><img src="./../assets/psd.png" alt="redux" /><div className='about-skill'>Photoshop</div></div>
-                        <div onClick={handleClick} class="arrow bounce"></div>
+                        <div onClick={handleClick} className="arrow bounce"></div>
                         <p className='about-column-text'>Contact me if you have any questions about my skills level.</p>
 
                     </div>

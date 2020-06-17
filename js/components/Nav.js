@@ -20,8 +20,8 @@ function Nav() {
                 </div>
                 <ul className='desktop-wrapper'>
                     <li><Link smooth={true} to="/">Home</Link></li>
-                    <li><Link smooth={true} to="about">About</Link></li>
                     <li><Link smooth={true} to="portfolio">Portfolio</Link></li>
+                    <li><Link smooth={true} to="about">About</Link></li>
                     <li><Link smooth={true} to="contact">Contact</Link></li>
                 </ul>
             </div>

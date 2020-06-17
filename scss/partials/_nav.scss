@@ -40,8 +40,8 @@
    
       
     li a:hover{
-        color: black;
-        border-bottom: 5px solid red;
+        color: $third-font-color;
+        border-bottom: 5px solid $additional-color;
     }
     .click{
         display: flex;

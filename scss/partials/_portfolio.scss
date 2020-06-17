@@ -31,21 +31,21 @@
         margin: 5vw;
     }
     .portfolio-title{
-        font-size: 3vw;
+        font-size: $title-font-size;
         margin-bottom: 2vw;
         text-align: center;
         font-weight: 700;
     }
     .portfolio-technologies{
-        font-size: 1.4vw;
+        font-size: 1.5vw;
         margin-bottom: 2vw;
         text-align: center;
         font-weight: 700;
     }
     .portfolio-text{
-        font-size: 1.4vw;
+        font-size: 1.5vw;
         text-align: justify;
-        line-height: 1.8vw;
+        line-height: $small-font-line;
     }
     .btn-container{
         display: flex;
