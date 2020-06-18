@@ -105,8 +105,14 @@
         margin-top: 3vw;
     }
     .about-skill-wrapper2{
-        display: none;
+        // display: none;
     }
+    .about-wrapper-novisible{
+       display: none;
+    }
+    .about-wrapper-visible{
+        display: block;
+     }
     .about-no-visible{
         display: flex;
     }
@@ -133,7 +139,6 @@
     width: 100%;
     padding-top: 70.71%;
    }
-  
 //    Needed to overwrite inlinie style of Popup from "reactjs-popup"
    .popup-content{
        width: 75% !important;
@@ -142,8 +147,7 @@
        color: $third-font-color;
        font-weight:700 ;
        font-size: 1.7vw;
-   }
-    
+   }  
     .about-icon{
         display: flex;
         justify-content: center;

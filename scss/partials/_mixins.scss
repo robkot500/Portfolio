@@ -9,6 +9,7 @@
     animation-duration: 15s;
   }
 
+
   @mixin hamburger {
     .ham-wrapper {
       display: block;
@@ -42,11 +43,12 @@
       bottom: 0;
       right: 0;
       left: 0;
-      // background-color: black;
       opacity:0.1;
       z-index: -1;
   }
   }
+
+
   @mixin button($color,$background) {
     width: 12vw;
     height: 3vw;
@@ -59,22 +61,8 @@
     color: $color;
    cursor: pointer;
   }
-  .btn{
-    width: 12vw;
-    height: 3vw;
-    background-color: $additional-color;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4vw;
-   color: white;
-   cursor: pointer;
-}
-
 @mixin arrow {
-  .arrow
-{
+  .arrow{
   position: relative;
   bottom: -2rem;
   left: 50%;

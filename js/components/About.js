@@ -1,20 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Element } from "react-scroll";
 import Popup from "reactjs-popup";
 import Modal from './Modal'
 
 function About() {
 
-
+    const [icon, setIcon] = useState(false)
     const handleClick = () => {
-        const aboutDown = document.querySelector('.about-down');
-        const aboutSkill = document.querySelectorAll('.about-skill-wrapper2');
-        aboutDown.classList.toggle('about-down2');
-        for (const item of aboutSkill) {
-            item.classList.toggle('about-no-visible');
-        }
-
-
+        setIcon(!icon)
     }
 
     return (
@@ -45,11 +38,13 @@ function About() {
                         <div className='about-skill-wrapper'><i className="fab fa-js-square"></i><div className='about-skill'>JavaScript</div></div>
                         <div className='about-skill-wrapper'><i className="fab fa-react"></i><div className='about-skill'>React JS</div></div>
                         <div className='about-skill-wrapper'><i className="fab fa-sass"></i><div className='about-skill'>Sass</div></div>
-                        <div className='about-skill-wrapper2'><i className="fab fa-git-alt"></i><div className='about-skill'>Git</div></div>
-                        <div className='about-skill-wrapper2'><i className="fab fa-github-square"></i><div className='about-skill'>Github</div></div>
-                        <div className='about-skill-wrapper2'><i className="fab fa-npm"></i><div className='about-skill'>npm</div></div>
-                        <div className='about-skill-wrapper2'><img src="./../assets/redux.png" alt="redux" /><div className='about-skill'>Redux</div></div>
-                        <div className='about-skill-wrapper2'><img src="./../assets/psd.png" alt="redux" /><div className='about-skill'>Photoshop</div></div>
+                        <div className={icon ? ('about-wrapper-visible') : ('about-wrapper-novisible')}>
+                            <div className='about-skill-wrapper2'><i className="fab fa-git-alt"></i><div className='about-skill'>Git</div></div>
+                            <div className='about-skill-wrapper2'><i className="fab fa-github-square"></i><div className='about-skill'>Github</div></div>
+                            <div className='about-skill-wrapper2'><i className="fab fa-npm"></i><div className='about-skill'>npm</div></div>
+                            <div className='about-skill-wrapper2'><img src="./../assets/redux.png" alt="redux" /><div className='about-skill'>Redux</div></div>
+                            <div className='about-skill-wrapper2'><img src="./../assets/psd.png" alt="redux" /><div className='about-skill'>Photoshop</div></div>
+                        </div>
                         <div onClick={handleClick} className="arrow bounce"></div>
                         <p className='about-column-text'>Contact me if you have any questions about my skills level.</p>
 
@@ -63,8 +58,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='about-down'>
-
+            <div className={icon ? ('about-down about-down2') : ('about-down')}>
             </div>
         </Element>
     )

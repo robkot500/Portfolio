@@ -3,11 +3,6 @@ import React from 'react';
 
 const Circle = ({ setPage }) => {
 
-    const handleClick = () => {
-        console.log('Kliknieto w link.');
-        setPage(true);
-    }
-
     return (
         <>
             <div className='header-right'>
@@ -44,10 +39,7 @@ const Circle = ({ setPage }) => {
                 <div className="sun sun9">
                     <div className="dot"><i className="fab fa-node"></i></div>
                 </div>
-                {/* <button onClick={handleClick}>BBBBB</button> */}
-
             </div>
-
         </>
     )
 }

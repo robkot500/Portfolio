@@ -11,10 +11,8 @@
   .header-container{
     height: 140vw;
     grid-template-columns: 100%;
-
     .header-right{
       order:1;
-      
     }
     .header-left{
       order:2;
@@ -30,7 +28,6 @@
       width: 33vw;
       height: 8vw;
       font-size: 4vw;
-      
     }
     }
     .me{
@@ -38,7 +35,6 @@
       height: 52vw;
       top: 26vw;
       left: 29vw;
-     
     }
     .sun{
       width: 73vw;
@@ -54,101 +50,86 @@
   height: 365vw;
   padding-top: 0;
   justify-content: flex-start;
-}
-.about-welcome{
-  font-size: 8vw;
-  margin-bottom: 3vw;
-}
-.about-wrapper{
-  grid-template-columns: 100%;
-  justify-items: center;
- 
-}
-.about-frame{
-  width: 50%;
-  margin:7vw 0;
-}
-.about-text{
-  font-size: 4vw;
-  line-height: 4.2vw;
-  padding-left: 0;
- 
-}
-.about-down{
-  height: 150vw;
-  background-color: transparent;
-}
-.about-down2{
-  height: 220vw;
-  background-color: transparent;
-}
-.arrow{
-  width: 6vw;
-  height: 6vw;
-}
-.about-middle{
-  bottom: 0%;
-  left: 7%;
-  width: 86%;
-  height: 65%;
-  display: grid;
-}
-
-.about-column{
-  width: 100%;
-  height: 100%;
-  border: 1px solid #f2f2f2;
-  background-color: white;
-  img{
-    width: 10vw;
-    height: 10vw;
-    font-size: 3vw;
-    margin-left: 3vw;
-}
-
-}
-.about-icon{
-  img{
-    width: 40vw;
-    height: 40vw;
-    margin: 5vw;
-}
-}
-.about-column-text{
-  margin: 6vw;
-  font-size: 4vw;
-  line-height: 5vw;
-}
-.pointer:hover{
-  font-size: 4.5vw;
-}
-.fab{
-  font-size: 10vw;
-  margin-left: 5vw;
+  }
+  .about-welcome{
+    font-size: 8vw;
+    margin-bottom: 3vw;
+  }
+  .about-wrapper{
+    grid-template-columns: 100%;
+    justify-items: center;
   
-}
-.about-skill{
-  font-size: 4vw;
-  padding: 1vw 0;
-  height: 6vw;
-  margin: 3.5vw 3vw;
-}
-// .about-column:first-child{
-//   border-top-left-radius: 20px;
-// }
-// .about-column:last-child{
-//   border-top-right-radius: 20px;
-// }
+  }
+  .about-frame{
+    width: 50%;
+    margin:7vw 0;
+  }
+  .about-text{
+    font-size: 4vw;
+    line-height: 4.2vw;
+    padding-left: 0;
+  
+  }
+  .about-down{
+    height: 150vw;
+    background-color: transparent;
+  }
+  .about-down2{
+    height: 220vw;
+    background-color: transparent;
+  }
+  .arrow{
+    width: 6vw;
+    height: 6vw;
+  }
+  .about-middle{
+    bottom: 0%;
+    left: 7%;
+    width: 86%;
+    height: 65%;
+    display: grid;
+  }
 
-img{
-  margin: 2.5vw;
-  width: 25vw;
-  height: 25vw;
-}
-.about-title{
-  text-align: center;
-  font-size: 6vw;
-}
+  .about-column{
+    width: 100%;
+    height: 100%;
+    background-color: $second-font-color;
+    img{
+      width: 10vw;
+      height: 10vw;
+      font-size: 3vw;
+      margin-left: 3vw;
+  }
+  }
+  .about-icon{
+    img{
+      width: 40vw;
+      height: 40vw;
+      margin: 5vw;
+  }
+  }
+  .about-column-text{
+    margin: 6vw;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .pointer:hover{
+    font-size: 4.5vw;
+  }
+  .fab{
+    font-size: 10vw;
+    margin-left: 5vw;
+  }
+  .about-skill{
+    font-size: 4vw;
+    padding: 1vw 0;
+    height: 6vw;
+    margin: 3.5vw 3vw;
+  }
+  .about-title{
+    text-align: center;
+    font-size: 6vw;
+  }
 }
 .portfolio-container{
   .portfolio-item{
@@ -163,9 +144,7 @@ img{
   order: 1;
   justify-content: center;
   align-items: flex-end;
-  
 }
-
 img{
     width: 71.5vw;
     height: 65vw;
@@ -177,8 +156,7 @@ img{
 }
 .portfolio-technologies{
     font-size: 3vw;
-    margin-bottom: 3vw;
-    
+    margin-bottom: 3vw; 
 }
 .portfolio-text{
     font-size: 3vw;
@@ -234,16 +212,5 @@ img{
 }
 
 }
-  @media screen and (min-width: 701px) and (max-width: 1200px) {
-    
-    }
-  @media screen and (min-width: 1201px) and (max-width: 1400px) {
-    
-    }
-  @media screen and (min-width: 1301px) and (max-width: 1500px) {
-     
-  }
-  @media screen and (min-width: 1401px) {
-    
-  }
+  
   
