@@ -36,10 +36,7 @@
         display: none;
         justify-content: center;
         align-items: center;
-    }
-    
-   
-      
+    } 
     li a:hover{
         color: $third-font-color;
         border-bottom: 5px solid $additional-color;
@@ -62,9 +59,7 @@
         li{
           display: flex;
         }
-       
-    } 
-    
+    }   
 }
 .nav-background{
     background-color: gray;
