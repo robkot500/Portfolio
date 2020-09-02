@@ -6,6 +6,30 @@ function Portfolio() {
         <Element name='portfolio' className='portfolio-container'>
             <div className="portfolio-item">
                 <div className="portfolio-left">
+                    <p className='portfolio-title'>To do app</p>
+                    <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
+                    <p className='portfolio-text'>I am curently working on</p>
+                    <div className="btn-container">
+                        <a href="https://robkot500.github.io/to_do/" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://github.com/robkot500/to_do/tree/master" target="_blank"><div className='btn-2'>View code</div></a>
+                    </div>
+                </div>
+                <div className="portfolio-right"><a href="https://robkot500.github.io/to_do/" target="_blank"><img src="./../assets/to_do.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
+            </div>
+            <div className="portfolio-item">
+                <div className="portfolio-left">
+                    <p className='portfolio-title'>Company website</p>
+                    <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
+                    <p className='portfolio-text'>I am curently working on</p>
+                    <div className="btn-container">
+                        <a href="https://robkot500.github.io/electric_site/" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://github.com/robkot500/electric_site" target="_blank"><div className='btn-2'>View code</div></a>
+                    </div>
+                </div>
+                <div className="portfolio-right"><a href="https://robkot500.github.io/electric_site/" target="_blank"><img src="./../assets/electric_site.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
+            </div>
+            <div className="portfolio-item">
+                <div className="portfolio-left">
                     <p className='portfolio-title'>Portfolio</p>
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
                     <p className='portfolio-text'>My portfolio website - still under constraction</p>
