@@ -14,7 +14,7 @@ function Portfolio() {
                         <a href="https://github.com/robkot500/to_do/tree/master" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
-                <div className="portfolio-right"><a href="https://robkot500.github.io/to_do/" target="_blank"><img src="./../assets/to_do.png" alt="Mediator sądowy Iwona Kotwicka" /></a></div>
+                <div className="portfolio-right"><a href="https://robkot500.github.io/to_do/" target="_blank"><img src="./../assets/to_do.png" alt="to do" /></a></div>
             </div>
             <div className="portfolio-item">
                 <div className="portfolio-left">
