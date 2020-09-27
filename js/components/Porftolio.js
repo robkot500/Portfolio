@@ -10,7 +10,7 @@ function Portfolio() {
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT, REDUX</p>
                     <p className='portfolio-text'>I am curently working on complex to do list</p>
                     <div className="btn-container">
-                        <a href="https://robkot500.github.io/to_do/" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://robkot500.github.io/to_do/" target="_blank"><div className='btn-1' id='to_do'>Visit site</div></a>
                         <a href="https://github.com/robkot500/to_do/tree/master" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
