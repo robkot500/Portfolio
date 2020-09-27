@@ -10,7 +10,7 @@ function Portfolio() {
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT, REDUX</p>
                     <p className='portfolio-text'>I am curently working on complex to do list</p>
                     <div className="btn-container">
-                        <a href="https://robkot500.github.io/to_do/" target="_blank"><div className='btn-1 aaa' id='to_do'>Visit site</div></a>
+                        <a href="https://robkot500.github.io/to_do/" target="_blank"><div className='btn-1' id='to_do'>Visit site</div></a>
                         <a href="https://github.com/robkot500/to_do/tree/master" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ function Portfolio() {
                     <p className='portfolio-technologies'>HTML, CSS, SASS, REACT</p>
                     <p className='portfolio-text'>I am curently working on company website </p>
                     <div className="btn-container">
-                        <a href="https://robkot500.github.io/electric_site/" target="_blank"><div className='btn-1'>Visit site</div></a>
+                        <a href="https://robkot500.github.io/electric_site/" target="_blank"><div className='btn-1' id='electric'>Visit site</div></a>
                         <a href="https://github.com/robkot500/electric_site" target="_blank"><div className='btn-2'>View code</div></a>
                     </div>
                 </div>
