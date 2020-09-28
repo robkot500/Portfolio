@@ -47,7 +47,7 @@ function Portfolio() {
                     <p className='portfolio-text'>A web application that allows user to view the weather forecast for 6 days using the Fetch API. Available for for any location by using geolocation or city name.</p>
                     <div className="btn-container">
                         <a href="https://robkot500.github.io/Weather/build/" target="_blank"><div className='btn-1' id='weather'>Visit site</div></a>
-                        <a href="https://github.com/robkot500/Weather" target="_blank"><div className='btn-2' id='weather-code'>View code</div></a>
+                        <a href="https://github.com/robkot500/Weather" target="_blank"><div className='btn-2' id='weather code'>View code</div></a>
                     </div>
                 </div>
                 <div className="portfolio-right"><a href="https://robkot500.github.io/Weather/build/" target="_blank"><img src="./../assets/weather.png" alt="Prognoza pogody" /></a></div>
